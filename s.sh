@@ -7,14 +7,14 @@ echo -e "\033[1;94m ‎"
 figlet -f smshadow CBDW
 sleep 3
 echo ""
-echo -e "                 \033[1;97m  Github: \033[1;90mgithub.com/7ife"
-echo -e "                 \033[1;97m  E-mail: \033[1;90m7ife@pm.me"
+echo -e "                 \033[1;90m  Github: github.com/7ife"
+echo -e "                 \033[1;90m  E-mail: 7ife@pm.me"
 echo ""
-echo -e "            \033[1;94m::ChatBox::DarkWeb::"
+echo -e "              \033[1;94m::ChatBox::DarkWeb::"
 echo ""
 echo -e ""
 sleep 3
-echo -e $'\e[1;34m[\e[0m\e[1;77m \033[1;90mCBDW \e[0m\e[1;34m]\e[0m\e[1;32m # Installing Dependencies! \e[0m'
+echo -e $'\e[1;34m[ CBDW ]\e[0m\e[1;32m # Installing Dependencies! \e[0m'
 sleep 2
 apt install wget -y
 apt install nginx -y
