@@ -42,7 +42,7 @@ echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;32m ## Starting TO
 sleep 5
 cd $PREFIX/share/nginx/html/cbdw/onion/
 tor -f instance_torrc &
-sleep 20
+sleep 33
 cd $PREFIX/share/nginx/html/cbdw/onion/tor-dm
 echo ""
 echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;32m # Your Onion domain for ChatBox is Ready! \e[0m'
