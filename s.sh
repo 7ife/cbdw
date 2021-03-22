@@ -3,18 +3,18 @@
 apt install figlet
 clear
 echo ""
-echo -e "\033[1;93m ‎"
-figlet -f shadow CBDW
+echo -e "\033[1;94m ‎"
+figlet -f speed CBDW
 sleep 3
 echo ""
-echo -e "              \033[1;97m  Author   \033[1;90m: \033[1;96m7ife"
-echo -e "              \033[1;97m  Github   \033[1;90m: \033[1;93mgithub.com/7ife"
-echo -e "              \033[1;97m  E-mail   \033[1;90m: \033[1;97m7ife@pm.me"
+echo -e "                 \033[1;97m  Author\033[1;90m: \033[1;97m7ife"
+echo -e "                 \033[1;97m  Github\033[1;90m: \033[1;97mgithub.com/7ife"
+echo -e "                 \033[1;97m  E-mail\033[1;90m: \033[1;97m7ife@pm.me"
+echo -e "       \033[1;94m::ChatBox::DarkWeb::"
 echo ""
 echo -e ""
 sleep 3
-echo -e $'\e[1;35m[\e[0m\e[1;77m CBDW \e[0m\e[1;35m]\e[0m\e[1;32m # Installing Dependencies ! \e[0m'
-echo ""
+echo -e $'\e[1;34m[\e[0m\e[1;77m CBDW \e[0m\e[1;34m]\e[0m\e[1;32m # Installing Dependencies! \e[0m'
 sleep 2
 apt install wget -y
 apt install nginx -y
@@ -32,23 +32,23 @@ rm html.tar.gz
 cd $PREFIX/var/
 mkdir run
 echo ""
-echo -e $'\e[1;35m[\e[0m\e[1;77m CBDW \e[0m\e[1;35m]\e[0m\e[1;32m ## Starting Nginx & php-fpm \e[0m'
+echo -e $'\e[1;34m[\e[0m\e[1;77m CBDW \e[0m\e[1;34m]\e[0m\e[1;32m ## Starting Nginx & php-fpm \e[0m'
 sleep 2
 nginx
 sleep 1
 php-fpm
-echo -e "        \033[1;93m Nginx & php-fpm is up"
+echo -e "            \033[1;93m Nginx & php-fpm is up"
 echo ""
 sleep 1
 echo ""
-echo -e $'\e[1;35m[\e[0m\e[1;77m CBDW \e[0m\e[1;35m]\e[0m\e[1;32m ## Starting TOR \e[0m'
+echo -e $'\e[1;34m[\e[0m\e[1;77m CBDW \e[0m\e[1;34m]\e[0m\e[1;32m ## Starting TOR \e[0m'
 sleep 2
 cd $PREFIX/share/nginx/html/cbdw/onion/
 tor -f instance_torrc &
 sleep 33
 cd $PREFIX/share/nginx/html/cbdw/onion/tor-dm
 echo ""
-echo -e $'\e[1;35m[\e[0m\e[1;77m CBDW \e[0m\e[1;35m]\e[0m\e[1;32m # Your Onion domain for ChatBox is Ready! \e[0m'
+echo -e $'\e[1;34m[\e[0m\e[1;77m CBDW \e[0m\e[1;34m]\e[0m\e[1;32m # Your Onion domain for ChatBox is Ready! \e[0m'
 echo ""
 echo -e "\e[91m "
 cat hostname
@@ -56,7 +56,7 @@ echo -e "\e[39m "
 echo ""
 echo -e "\033[1;33mafter 15-20 minutes, can go to your address in the Tor Browser"
 echo ""
-echo -e $'\e[1;35m[\e[0m\e[1;77m CBDW \e[0m\e[1;35m]\e[0m\e[1;32m ## Press CTRL + C to turn all it off \e[0m'
+echo -e $'\e[1;34m[\e[0m\e[1;77m CBDW \e[0m\e[1;34m]\e[0m\e[1;32m ## Press CTRL + C to turn all it off \e[0m'
 echo ""
 while true
 do
