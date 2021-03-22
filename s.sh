@@ -5,15 +5,14 @@ clear
 echo ""
 echo -e "\033[1;94m ‎"
 figlet -f smshadow CBDW
-sleep 3
 echo ""
-echo "\033[1;90m  Github: github.com/7ife"
-echo "\033[1;90m  E-mail: 7ife@pm.me"
+echo -e "\033[1;90m  Github: github.com/7ife"
+echo -e "\033[1;90m  E-mail: 7ife@pm.me"
 echo ""
-echo "\033[1;94m::ChatBox::DarkWeb::"
+echo -e "\033[1;90m::ChatBox::DarkWeb::"
 echo ""
 echo -e ""
-sleep 3
+sleep 4
 echo -e $'\e[1;34m[ CBDW ]\e[0m\e[1;32m # Installing Dependencies! \e[0m'
 sleep 2
 apt install wget -y
