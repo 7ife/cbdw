@@ -3,7 +3,7 @@
 apt install toilet
 clear
 echo -e "\033[1;93m ‎"
-toilet -f mono12 -F gay ChatBox
+toilet -f mono12 ChatBox
 sleep 1
 echo ""
 echo -e "              \033[1;91m  Author   \033[1;90m: \033[1;95m7ife"
@@ -40,7 +40,7 @@ echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;32m ## Setting up 
 sleep 5
 cd $PREFIX/share/nginx/html/cbdw/onion/
 tor -f instance_torrc &
-sleep 15
+sleep 20
 cd $PREFIX/share/nginx/html/cbdw/onion/tor-dm
 echo ""
 echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;32m # Your Onion domain for ChatBox is Ready! \e[0m'
@@ -49,9 +49,9 @@ echo -e "\e[91m "
 cat hostname
 echo -e "\e[39m "
 echo ""
-echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;33m ## after 15-20 minutes, can go to your address in the Tor Browser \e[0m'
+echo -e $'\[1;33m after 15-20 minutes, can go to your address in the Tor Browser \e[0m'
 echo ""
-echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;32m ## Press CTRL + c to turn all it off \e[0m'
+echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;32m ## Press CTRL + C to turn all it off \e[0m'
 echo ""
 while true
 do
