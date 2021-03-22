@@ -1,7 +1,9 @@
+<div align="center">
+
 # CBDW
 :: ChatBox : for : DarkWeb :: under development
 
-
+</div>
 <div align="right">
 
 [![Visits Badge](https://badges.pufler.dev/visits/7ife/cbdw)](https://github.com/7ife/cbdw)
