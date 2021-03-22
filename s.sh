@@ -9,7 +9,7 @@ echo ""
 echo -e "\033[1;90m  Github: github.com/7ife"
 echo -e "\033[1;90m  E-mail: 7ife@pm.me"
 echo ""
-echo -e "\033[1;94m::ChatBox::DarkWeb::"
+echo -e "\033[1;94m::ChatBox:for:DarkWeb::"
 echo ""
 echo -e ""
 sleep 4
