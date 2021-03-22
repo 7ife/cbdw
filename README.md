@@ -1,5 +1,5 @@
-# cbdw
-:: ChatBox :: DarkWeb :: under development
+# CBDW
+:: ChatBox : for : DarkWeb :: under development
 
 
 <div align="right">
