@@ -1,9 +1,9 @@
 #!bin/bash
-#Coded by 7ife
-apt install toilet
+#Coded by 7ife@pm.me
+apt install figlet
 clear
 echo -e "\033[1;93m ‎"
-toilet -f mono12 ChatBox
+figlet -f jazmine CBDW
 sleep 1
 echo ""
 echo -e "              \033[1;91m  Author   \033[1;90m: \033[1;95m7ife"
@@ -30,13 +30,15 @@ tar -xvpf html.tar.gz
 rm html.tar.gz
 cd $PREFIX/var/
 mkdir run
-echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;32m ## Starting Ngnx and php-fpm \e[0m'
+echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;32m ## Starting Nginx & php-fpm \e[0m'
 nginx
 sleep 5
 php-fpm
-echo -e "\033[1;95mNgnx and php-fpm is up"
+echo ""
+echo -e "\033[1;95m Nginx & php-fpm is up"
+echo ""
 sleep 5
-echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;32m ## Setting up TOR \e[0m'
+echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;32m ## Starting TOR \e[0m'
 sleep 5
 cd $PREFIX/share/nginx/html/cbdw/onion/
 tor -f instance_torrc &
@@ -49,7 +51,8 @@ echo -e "\e[91m "
 cat hostname
 echo -e "\e[39m "
 echo ""
-echo -e $'\[1;33m after 15-20 minutes, can go to your address in the Tor Browser \e[0m'
+echo -e "\033[1;33m after 15-20 minutes, can go to your address in the Tor Browser"
+echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;33m ## after 15-20 minutes, can go to your address in the Tor Browser \e[0m'
 echo ""
 echo -e $'\e[1;33m[\e[0m\e[1;77m CBDW \e[0m\e[1;33m]\e[0m\e[1;32m ## Press CTRL + C to turn all it off \e[0m'
 echo ""
