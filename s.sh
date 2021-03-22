@@ -7,10 +7,10 @@ echo -e "\033[1;94m ‎"
 figlet -f smshadow CBDW
 sleep 3
 echo ""
-echo -e "                 \033[1;90m  Github: github.com/7ife"
-echo -e "                 \033[1;90m  E-mail: 7ife@pm.me"
+echo "\033[1;90m  Github: github.com/7ife"
+echo "\033[1;90m  E-mail: 7ife@pm.me"
 echo ""
-echo -e "              \033[1;94m::ChatBox::DarkWeb::"
+echo "\033[1;94m::ChatBox::DarkWeb::"
 echo ""
 echo -e ""
 sleep 3
@@ -32,31 +32,31 @@ rm html.tar.gz
 cd $PREFIX/var/
 mkdir run
 echo ""
-echo -e $'\e[1;34m[\e[0m\e[1;77m CBDW \e[0m\e[1;34m]\e[0m\e[1;32m ## Starting Nginx & php-fpm \e[0m'
+echo -e $'\e[1;34m[ CBDW ]\e[0m\e[1;32m # Starting Nginx & php-fpm \e[0m'
 sleep 2
 nginx
 sleep 1
 php-fpm
-echo -e "            \033[1;93m Nginx & php-fpm is up"
+echo -e " \033[1;93m Nginx & php-fpm is up"
 echo ""
 sleep 1
 echo ""
-echo -e $'\e[1;34m[\e[0m\e[1;77m CBDW \e[0m\e[1;34m]\e[0m\e[1;32m ## Starting TOR \e[0m'
+echo -e $'\e[1;34m[ CBDW ]\e[0m\e[1;32m # Starting TOR \e[0m'
 sleep 2
 cd $PREFIX/share/nginx/html/cbdw/onion/
 tor -f instance_torrc &
 sleep 33
 cd $PREFIX/share/nginx/html/cbdw/onion/tor-dm
 echo ""
-echo -e $'\e[1;34m[\e[0m\e[1;77m CBDW \e[0m\e[1;34m]\e[0m\e[1;32m # Your Onion domain for ChatBox is Ready! \e[0m'
+echo -e $'\e[1;34m[ CBDW ]\e[0m\e[1;32m # Your Onion domain for ChatBox is Ready! \e[0m'
 echo ""
 echo -e "\e[91m "
 cat hostname
 echo -e "\e[39m "
 echo ""
-echo -e "\033[1;33mafter 15-20 minutes, can go to your address in the Tor Browser"
+echo -e "\033[1;33m If Bootstrapped 100% after 15-20 minutes Can go to Your address in the Tor Browser"
 echo ""
-echo -e $'\e[1;34m[\e[0m\e[1;77m CBDW \e[0m\e[1;34m]\e[0m\e[1;32m ## Press CTRL + C to turn all it off \e[0m'
+echo -e $'\e[1;34m[ CBDW ]\e[0m\033[1;90m # Press CTRL + C to turn All it Off \e[0m'
 echo ""
 while true
 do
