@@ -4,6 +4,9 @@
 ::ChatBox : for : DarkWeb:: under development
 
 </div>
+### General Information:
+Automatic launch ChatBox on your own NGINX & PHP-FPM server in Android system through Termux. You don't have to pay for the domain, we'll run it in the Tor network as well as in Ngrok.
+
 <div align="right">
 
 [![Visits Badge](https://badges.pufler.dev/visits/7ife/cbdw)](https://github.com/7ife/cbdw)
