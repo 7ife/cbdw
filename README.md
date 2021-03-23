@@ -29,4 +29,8 @@ if you closed the tor, then to start it: <br>
 - `cd $HOME/cbdw`
 - `bash t.sh`
 
+>if for some reason your phone with the chatbox turned off or rebooted, use this command to start: <br>
+- `cd $HOME/cbdw`
+- `bash b.sh`
+
 ###### continuation in development
