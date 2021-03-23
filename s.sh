@@ -55,7 +55,7 @@ echo -e "\e[39m "
 echo ""
 echo -e "\033[1;33m If Bootstrapped 100% after 15-20 minutes Can go to Your address in the Tor Browser"
 echo ""
-echo -e $'\e[1;34m [ CBDW ]\e[0m\033[1;90m # Press CTRL + C to turn All it Off \e[0m'
+echo -e $'\e[1;34m [ CBDW ]\e[0m\033[1;90m # Press CTRL + C to close Tor \e[0m'
 echo ""
 while true
 do
