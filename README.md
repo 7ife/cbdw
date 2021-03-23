@@ -24,4 +24,4 @@ First, install app Termux in [Google Play](https://play.google.com/store/apps/de
 - `cd cbdw`
 - `bash s.sh` <br>
 
-<small> continuation in development </small>
+###### continuation in development
