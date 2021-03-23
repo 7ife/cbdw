@@ -25,5 +25,8 @@ First, install app Termux in [Google Play](https://play.google.com/store/apps/de
 - `bash s.sh` <br>
 
 >When you have received your onion address, you can collapse the application and in any browser open address `localhost:8080` <br>
+if you closed the tor, then to start it: <br>
+- `cd $HOME/cbdw`
+- `bash t.sh`
 
 ###### continuation in development
