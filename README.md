@@ -17,7 +17,7 @@ Automatic launch ChatBox on your own NGINX & PHP-FPM server in Android system th
 ---
 ### Instructions:
 >**Launching a ChatBox in the Tor network** <br>
-First, install Termux from the playmarket. After in Termux, we writing commands: <br>
+First, install app Termux in [Google Play](https://play.google.com/store/apps/details?id=com.termux&hl=en_US&gl=US). After in Termux, we writing commands: <br>
 - `pkg up`
 - `pkg install git`
 - `git clone https://github.com/7ife/cbdw`
