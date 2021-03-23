@@ -3,13 +3,18 @@
 clear
 echo ""
 echo -e "\033[1;94m ‎"
-figlet -f smshadow CBDW
+echo "${k}░█████╗░██████╗░██████╗░░██╗░░░░░░░██╗";
+echo "${k}██╔══██╗██╔══██╗██╔══██╗░██║░░██╗░░██║";
+echo "${k}██║░░╚═╝██████╦╝██║░░██║░╚██╗████╗██╔╝";
+echo "${k}██║░░██╗██╔══██╗██║░░██║░░████╔═████║░";
+echo "${k}╚█████╔╝██████╦╝██████╔╝░░╚██╔╝░╚██╔╝░";
+echo "${k}░╚════╝░╚═════╝░╚═════╝░░░░╚═╝░░░╚═╝░░";
 echo ""
 echo -e "\033[1;90m  Github: github.com/7ife"
 echo -e "\033[1;90m  E-mail: 7ife@pm.me"
 echo ""
 echo -e "\033[1;94m::ChatBox:for:DarkWeb::"
-sleep 1
+sleep 2
 echo ""
 echo -e ""
 echo -e $'\e[1;34m::CBDW::\e[0m\e[1;32m #Installing Dependencies\e[0m'
