@@ -29,7 +29,7 @@ if you closed the tor, then to start it: <br>
 - `cd $HOME/cbdw`
 - `bash t.sh`
 
->if for some reason your device with the chatbox turned off or rebooted, use this command to start: <br>
+>if for some reason your device with the ChatBox turned off or rebooted, use this command to start: <br>
 - `cd $HOME/cbdw`
 - `bash b.sh`
 
