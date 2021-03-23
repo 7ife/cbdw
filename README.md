@@ -13,6 +13,7 @@ Automatic launch ChatBox on your own NGINX & PHP-FPM server in Android system th
 [![Visits Badge](https://badges.pufler.dev/visits/7ife/cbdw)](https://github.com/7ife/cbdw)
 [![](https://img.shields.io/badge/-Donate-%23181717?style=flat-square&logo=bitcoin)](https://commerce.coinbase.com/checkout/61780323-c37c-41a2-8d13-571f125e813a)
 </div>
+
 ---
 ### Instructions:
 >**Launching a ChatBox in the Tor network** <br>
