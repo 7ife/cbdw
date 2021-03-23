@@ -1,7 +1,7 @@
 <div align="center">
 
 # CBDW
-:: ChatBox : for : DarkWeb :: under development
+::ChatBox:for:DarkWeb:: under development
 
 </div>
 <div align="right">
