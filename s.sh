@@ -12,8 +12,8 @@ echo ""
 echo -e "\033[1;94m::ChatBox:for:DarkWeb::"
 echo ""
 echo -e ""
-sleep 3
-echo -e $'\e[1;34m [ CBDW ]\e[0m\e[1;32m # Installing Dependencies! \e[0m'
+sleep 2
+echo -e $'\e[1;34m [ CBDW ]\e[0m\e[1;32m # Installing Dependencies\e[0m'
 sleep 2
 apt install wget -y
 apt install nginx -y
