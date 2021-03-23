@@ -12,7 +12,7 @@ echo -e "\033[1;90m  Github: github.com/7ife"
 echo -e "\033[1;90m  E-mail: 7ife@pm.me"
 echo ""
 echo -e "\033[1;94m::start/restart onion address::"
-sleep 2
+sleep 3
 echo ""
 echo -e ""
 echo -e $'\e[1;34m::CBDW::\e[0m\e[1;32m #Starting TOR\e[0m'
