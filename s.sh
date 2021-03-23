@@ -49,17 +49,6 @@ read -p "# Enter change password for Admin >>> " passad
 if [[ $search != "" && $passad != "" ]]; then
 sed -i "s/$search/$passad/gi" cbdw/www/include/Display-ChatBox.php
 fi
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-echo ""
-echo -e " \033[1;93m successful"
-echo ""
-#Enter change code for interesting gif
-search="CheatCode-for-f*ckOf"
-read -p "# Enter change code for interesting gif >>> " gifcodi
-if [[ $search != "" && $gifcodi != "" ]]; then
-sed -i "s/$search/$gifcodi/gi" cbdw/www/include/Display-ChatBox.php
-fi
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo ""
 echo -e " \033[1;93m successful"
 cd $PREFIX/var/
