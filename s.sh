@@ -35,7 +35,7 @@ search="admin_similar-to-password"
 read -p "#Enter Change name Admin panel >>> " replace
 if [[ $search != "" && $replace != "" ]]; then
 sed -i "s/$search/$replace/gi" index.html
-sed -i "s/$search/$replace/gi" cbdw/www/index.php
+sed -i "s/$search/$replace/gi" cbdw/www/
 fi
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo ""
