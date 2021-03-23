@@ -37,7 +37,7 @@ if [[ $search != "" && $replace != "" ]]; then
 sed -i "s/$search/$replace/gi" index.html
 sed -i "s/$search/$replace/gi" cbdw/www/index.php
 sed -i "s/$search/$replace/gi" cbdw/www/include/Display-ChatBox.php
-mv ~$PREFIX/share/nginx/html/cbdw/www/$replace ~$PREFIX/share/nginx/html/cbdw/www/admin_similar-to-password
+mv $PREFIX/share/nginx/html/cbdw/www/admin_similar-to-password $replace 
 fi
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo ""
