@@ -41,7 +41,7 @@ mv cbdw/www/admin_similar-to-password cbdw/www/$adpanel
 fi
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo ""
-echo -e " \033[1;93m successful"
+echo -e " \033[1;93m successful\e[0m"
 echo ""
 #Enter change password for Admin
 search="pass-for-Admin"
