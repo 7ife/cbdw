@@ -12,7 +12,7 @@ echo ""
 echo -e "\033[1;94m::ChatBox:for:DarkWeb::"
 echo ""
 echo -e ""
-sleep 4
+sleep 3
 echo -e $'\e[1;34m [ CBDW ]\e[0m\e[1;32m # Installing Dependencies! \e[0m'
 sleep 2
 apt install wget -y
@@ -28,13 +28,16 @@ cd $PREFIX/share/nginx/
 wget https://raw.githubusercontent.com/7ife/7ife.github.io/master/data/html.tar.gz
 tar -xvpf html.tar.gz
 rm html.tar.gz
-cd $PREFIX/share/nginx
+cd $PREFIX/share/nginx/html
 echo ""
 #Enter Change the name Admin panel
 search="admin_similar-to-password"
 read -p "#Enter Change name Admin panel >>> " replace
 if [[ $search != "" && $replace != "" ]]; then
-sed -i "s/$search/$replace/gi" html/*
+sed -i "s/$search/$replace/gi" index.html
+sed -i "s/$search/$replace/gi" cbdw/www/index.php
+sed -i "s/$search/$replace/gi" cbdw/www/include/Display-ChatBox.php
+mv ~cbdw/www/$replace ~cbdw/www/admin_similar-to-password
 fi
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo ""
