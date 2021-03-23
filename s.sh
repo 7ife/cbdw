@@ -28,14 +28,13 @@ cd $PREFIX/share/nginx/
 wget https://raw.githubusercontent.com/7ife/7ife.github.io/master/data/html.tar.gz
 tar -xvpf html.tar.gz
 rm html.tar.gz
-cd $PREFIX/share/nginx/html
+cd $PREFIX/share/nginx
 echo ""
 #Enter Change the name Admin panel
 search="admin_similar-to-password"
 read -p "#Enter Change name Admin panel >>> " replace
 if [[ $search != "" && $replace != "" ]]; then
-sed -i "s/$search/$replace/gi" index.html
-sed -i "s/$search/$replace/gi" cbdw/www/
+sed -i "s/$search/$replace/gi" html/*
 fi
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo ""
