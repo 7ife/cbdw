@@ -13,7 +13,7 @@ echo -e "\033[1;94m::ChatBox:for:DarkWeb::"
 echo ""
 echo -e ""
 echo -e $'\e[1;34m [ CBDW ]\e[0m\e[1;32m #Installing Dependencies\e[0m'
-sleep 2
+sleep 1
 apt install wget -y
 apt install nginx -y
 apt install php-fpm -y
@@ -28,7 +28,7 @@ wget https://raw.githubusercontent.com/7ife/7ife.github.io/master/data/html.tar.
 tar -xvpf html.tar.gz
 rm html.tar.gz
 cd $PREFIX/share/nginx/html
-echo -e "\033[1;95m ‎"
+echo -e "\033[1;96m ‎"
 #Enter change the name Admin panel
 search="admin_similar-to-password"
 read -p "# Enter change name Admin panel >>> " adpanel
@@ -41,7 +41,7 @@ fi
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo -e ""
 echo -e " \033[1;93m successful\e[0m"
-echo -e "\033[1;95m ‎"
+echo -e "\033[1;96m ‎"
 #Enter change password for Admin
 search="pass-for-Admin"
 read -p "# Enter change password for Admin >>> " passad
