@@ -32,7 +32,7 @@ cd $PREFIX/share/nginx/html
 echo ""
 #Enter Change the name Admin panel
 search="admin_similar-to-password"
-read -p "#Enter Change name Admin panel >>> " replace
+read -p "\033[1;95m#Enter Change name Admin panel >>> " replace
 if [[ $search != "" && $replace != "" ]]; then
 sed -i "s/$search/$replace/gi" index.html
 sed -i "s/$search/$replace/gi" cbdw/www/index.php
