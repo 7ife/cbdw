@@ -18,6 +18,8 @@ echo -e ""
 echo -e $'\e[1;34m::CBDW::\e[0m\e[1;32m #Starting TOR\e[0m'
 sleep 2
 cd $PREFIX/share/nginx/html/cbdw/onion/
+rm -R tor-data
+sleep 1
 tor -f instance_torrc &
 sleep 33
 cd $PREFIX/share/nginx/html/cbdw/onion/tor-dm
