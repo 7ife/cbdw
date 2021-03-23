@@ -30,14 +30,34 @@ tar -xvpf html.tar.gz
 rm html.tar.gz
 cd $PREFIX/share/nginx/html
 echo ""
-#Enter Change the name Admin panel
+#Enter change the name Admin panel
 search="admin_similar-to-password"
-read -p "# Enter Change name Admin panel >>> " replace
-if [[ $search != "" && $replace != "" ]]; then
-sed -i "s/$search/$replace/gi" index.html
-sed -i "s/$search/$replace/gi" cbdw/www/index.php
-sed -i "s/$search/$replace/gi" cbdw/www/include/Display-ChatBox.php
-mv cbdw/www/admin_similar-to-password cbdw/www/$replace 
+read -p "# Enter change name Admin panel >>> " adpanel
+if [[ $search != "" && $adpanel != "" ]]; then
+sed -i "s/$search/$adpanel/gi" index.html
+sed -i "s/$search/$adpanel/gi" cbdw/www/index.php
+sed -i "s/$search/$adpanel/gi" cbdw/www/include/Display-ChatBox.php
+mv cbdw/www/admin_similar-to-password cbdw/www/$adpanel 
+fi
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+echo ""
+echo -e " \033[1;93m successful"
+echo ""
+#Enter change password for Admin
+search="pass-for-Admin"
+read -p "# Enter change password for Admin >>> " passad
+if [[ $search != "" && $passad != "" ]]; then
+sed -i "s/$search/$passad/gi" cbdw/www/include/Display-ChatBox.php
+fi
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+echo ""
+echo -e " \033[1;93m successful"
+echo ""
+#Enter change code for interesting gif
+search="CheatCode-for-f*ckOf"
+read -p "# Enter change code for interesting gif >>> " gifcodi
+if [[ $search != "" && $gifcodi != "" ]]; then
+sed -i "s/$search/$gifcodi/gi" cbdw/www/include/Display-ChatBox.php
 fi
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 echo ""
@@ -48,7 +68,6 @@ echo ""
 echo -e $'\e[1;34m [ CBDW ]\e[0m\e[1;32m # Starting Nginx & php-fpm\e[0m'
 sleep 2
 nginx
-sleep 1
 php-fpm
 echo -e " \033[1;93m Nginx & php-fpm is up"
 echo ""
