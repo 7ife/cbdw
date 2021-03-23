@@ -13,7 +13,6 @@ echo -e "\033[1;94m::ChatBox:for:DarkWeb::"
 echo ""
 echo -e ""
 echo -e $'\e[1;34m [ CBDW ]\e[0m\e[1;32m # Installing Dependencies\e[0m'
-sleep 2
 apt install wget -y
 apt install nginx -y
 apt install php-fpm -y
@@ -44,7 +43,7 @@ echo -e " \033[1;93m successful\e[0m"
 echo -e "\033[1;95m ‎"
 #Enter change password for Admin
 search="pass-for-Admin"
-read -p "# Enter change password for Admin >>> " passad
+read -p "# Enter change password for Admin >>> \e[1;34m" passad
 if [[ $search != "" && $passad != "" ]]; then
 sed -i "s/$search/$passad/gi" cbdw/www/include/Display-ChatBox.php
 fi
