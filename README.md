@@ -33,4 +33,8 @@ if you closed the tor, then to start it: <br>
 - `cd $HOME/cbdw`
 - `bash b.sh`
 
+>**Launching a ChatBox in Ngrok** <br>
+- `cd $HOME/cbdw`
+- `bash n.sh`
+
 ###### continuation in development
