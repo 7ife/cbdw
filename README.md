@@ -41,3 +41,5 @@ if you closed the tor, then to start it: <br>
 
 >**Tested working on Android:** `6.0`-[ok](#continuation-in-development "stably SAMSUNG A5"), `7.0`-[ok](#continuation-in-development "stably MEIZU PRO7"), `10.0`-[ok](#continuation-in-development "stably SAMSUNG S10 Lite") <br>
 device: SAMSUNG A5, MEIZU PRO7, SAMSUNG S10 Lite
+
+[Top](#top "Back to top")
