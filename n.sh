@@ -1,8 +1,5 @@
 #!bin/bash
 #Coded by 7ife
-echo -e "\033[1;92m ‎"
-echo "$update storage..."
-pkg update && pkg upgrade -y
 clear
 echo ""
 echo -e "\033[1;94m ‎"
