@@ -38,3 +38,8 @@ if you closed the tor, then to start it: <br>
 - `bash n.sh`
 
 ###### continuation in development
+
+>**Tested working on Android:** <br>
+- 6.0.1 *good*
+- 7.0   *good*
+- 10.0  *norm*
