@@ -39,7 +39,5 @@ if you closed the tor, then to start it: <br>
 
 ###### continuation in development
 
->**Tested working on Android:** <br>
-- 6.0.1 - *ok*
-- 7.0 - *ok*
-- 10.0 - *norm*
+>**Tested working on Android:** `6.0.1`-ok, `7.0`-ok, `10.0`-norm <br>
+
