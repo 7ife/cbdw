@@ -53,7 +53,7 @@ echo "${k}██║╚████║██║░░╚██╗██╔══�
 echo "${k}██║░╚███║╚██████╔╝██║░░██║╚█████╔╝██║░╚██╗";
 echo "${k}╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝";
 echo ""
-echo -e " \033[1;93m To run ngrok or update the address, use this command in termux:\e[0m \033[1;90mngrok http 8000\e[0m"
+echo -e " \033[1;93m To run ngrok and update the address, use this command in termux:\e[0m \033[1;90mngrok http 8000\e[0m"
 echo ""
 sleep 3
 echo -e $'\e[1;34m::CBDW::\e[0m\e[1;32m #Start in 6 seconds\e[0m'
