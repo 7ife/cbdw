@@ -39,5 +39,5 @@ if you closed the tor, then to start it: <br>
 
 ###### continuation in development
 
->**Tested working on Android:** `6.0.1`-[ok](#continuation-in-development "stably"), `7.0`-[ok](#continuation-in-development "stably"), `10.0`-[norm](#continuation-in-development "unraveling") <br>
+>**Tested working on Android:** `6.0.1`-[ok](#continuation-in-development "stably"), `7.0`-[norm](#continuation-in-development "unraveling"), `10.0`-[norm](#continuation-in-development "unraveling") <br>
 
