@@ -40,4 +40,4 @@ if you closed the tor, then to start it: <br>
 ###### continuation in development
 
 >**Tested working on Android:** `6.0`-[ok](#continuation-in-development "stably"), `7.0`-[ok](#continuation-in-development "stably"), `10.0`-[ok](#continuation-in-development "stably") <br>
-
+device: SAMSUNG A5, MEIZU PRO7, SAMSUNG S10 Lite
